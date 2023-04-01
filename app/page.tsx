@@ -3,9 +3,11 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>Welcome to the Homepage!</h1>
-      <Link href="/about">About</Link>
+    <main>
+      <h1>Homepage</h1>
+      <p>
+        <Link href='/users'>Users</Link>
+      </p>
     </main>
   )
 }
